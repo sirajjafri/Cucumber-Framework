@@ -1,0 +1,216 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 36,
+        "name": "Free CRM test scenario- using data driven approach- with example keyword",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-test-scenario--using-data-driven-approach--with-example-keyword;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9247243204,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is already on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14705901,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2251911358,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 13
+                },
+                {
+                  "val": "test@123",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4851517630,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8842228,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82762561,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Free CRM test scenario- using data driven approach- with example keyword",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-test-scenario--using-data-driven-approach--with-example-keyword;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8634171349,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is already on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9423775,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2226047284,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters \"sirajj\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sirajj",
+                  "offset": 13
+                },
+                {
+                  "val": "test@123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8935944616,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11864305,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121264912,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "F:/Automation/FreeCRMBDDFrameWork/src/main/java/Features/Login.feature"
+  }
+]
